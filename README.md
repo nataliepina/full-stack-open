@@ -1,4 +1,4 @@
-## Experian Health
+### Experian Health
 
 # Registration Accelerator
 
@@ -8,8 +8,9 @@ Registration Accelerator is an add-on solution to the eCareNext platform that fa
 
 This project features a React-Redux UI which contains a form that interacts with a mock API.
 
--------- 
-## Prerequisites ✅
+---
+
+### Prerequisites ✅
 
 Before running this project be sure you have Node.js v12 or later installed.
 
@@ -22,7 +23,7 @@ Visit [Yarn](https://yarnpkg.com) to grab the latest binary.
 
 - Alternate approach to [set up proxies for npm/yarn on a Citrix VM.](https://confluence.experianhealth.com/display/UIUX/Fixing+proxies+for+Yarn+and+npm+on+a+citrix+vm).
 
-#### Install Project Dependencies 📈
+### Install Project Dependencies 📈
 
 ```sh
 $ npm install
@@ -34,6 +35,8 @@ or
 $ yarn
 ```
 
+---
+
 ### Get Up and Running 🏃‍♀️
 
 Run The UI: `yarn dev` or `npm run dev`
@@ -44,14 +47,16 @@ To run the application locally in the browser use `localhost:3000/id/12345`
 
 Run `yarn run mock:service:slow` to emulate a slower connection when interacting with the service. This script adds a 2 sec delay to all responses.
 
+---
+
 ## Testing
 
-#### Unit Tests 🧪
+### Unit Tests 🧪
 
 - `yarn run test` will run the unit tests.
 - `yarn run test:cov` or `yarn run test --coverage` will execute tests and generate a coverage report.
 
-#### Cypress e2e Tests 🔄
+### Cypress e2e Tests 🔄
 
 [Install Cypress](https://docs.cypress.io/guides/getting-started/installing-cypress.html#System-requirements) v6 or later
 
