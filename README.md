@@ -9,9 +9,8 @@ Registration Accelerator is an add-on solution to the eCareNext platform that fa
 This project features a React-Redux UI which contains a form that interacts with a mock API.
 
 ---
-## Set Up
 
-### Prerequisites ✅
+### Prerequisites ☑️
 
 Before running this project be sure you have Node.js v12 or later installed.
 
@@ -38,13 +37,13 @@ $ yarn
 
 ### Get Up and Running 🏃‍♀️
 
-1. Run The UI: `yarn run dev` or `npm run dev`
+- Run The UI: `yarn run dev` or `npm run dev`
 
-2. Run the mock API: `yarn run mock:service` or `npm run mock:service`
+- Run the mock API: `yarn run mock:service` or `npm run mock:service`
 
-3. To run the application locally in the browser use `localhost:3000/id/12345`
+- To run the application locally in the browser use `localhost:3000/id/12345`
 
-Run `yarn run mock:service:slow` to emulate a slower connection when interacting with the service. This script adds a 2 sec delay to all responses.
+> Run `yarn run mock:service:slow` to emulate a slower connection when interacting with the service. This script adds a 2 sec delay to all responses.
 
 ## Testing
 
