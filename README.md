@@ -4,11 +4,12 @@
 
 Registration Accelerator is an add-on solution to the eCareNext platform that facilitates a text-to-mobile module experience that brings the registration process to the patient before time of service​.
 
-## React/Redux Stack Backbone 🚀
+### React/Redux Stack Backbone 🚀
 
 This project features a React-Redux UI which contains a form that interacts with a mock API.
 
 ---
+## Set Up
 
 ### Prerequisites ✅
 
@@ -35,19 +36,15 @@ or
 $ yarn
 ```
 
----
-
 ### Get Up and Running 🏃‍♀️
 
-Run The UI: `yarn dev` or `npm run dev`
+1. Run The UI: `yarn run dev` or `npm run dev`
 
-Run the mock API: `yarn run mock:service` or `npm run mock:service`
+2. Run the mock API: `yarn run mock:service` or `npm run mock:service`
 
-To run the application locally in the browser use `localhost:3000/id/12345`
+3. To run the application locally in the browser use `localhost:3000/id/12345`
 
 Run `yarn run mock:service:slow` to emulate a slower connection when interacting with the service. This script adds a 2 sec delay to all responses.
-
----
 
 ## Testing
 
@@ -72,4 +69,3 @@ yarn add cypress --dev
 
 - To individually run tests through the Cypress app - `yarn cypress:dev`
 - To run all Cypress tests - `yarn cypress:cicd`
-
