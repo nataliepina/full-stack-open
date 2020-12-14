@@ -4,24 +4,18 @@
 
 Registration Accelerator is an add-on solution to the eCareNext platform that facilitates a text-to-mobile module experience that brings the registration process to the patient before time of service​.
 
-## React/Redux Stack Backbone
+## React/Redux Stack Backbone 🚀
 
 This project features a React-Redux UI which contains a form that interacts with a mock API.
 
-## Built With
-
-- React
-- React-Redux
-- Testing with Jest, Enzyme and Cypress
-
-## Prerequisites
+## Prerequisites ✅
 
 Before running this project be sure you have Node.js v12 or later installed.
 
 We also recommend using Yarn over npm for package management.
 Visit [Yarn](https://yarnpkg.com) to grab the latest binary.
 
-### Configure Proxies
+### Configure Proxies 🔨
 
 Update your npm/yarn configuration as indicated in this [Confluence document.](https://confluence.passporthealth.com/display/NDT/Set+proxies+for+Yarn+and+npm+on+a+citrix+vm)
 
@@ -29,7 +23,7 @@ Alternate approach to [set up proxies for npm/yarn on a Citrix VM.](https://conf
 
 ## Installation
 
-#### Install Project Dependencies
+#### Install Project Dependencies 📈
 
 ```sh
 $ npm install
@@ -41,7 +35,7 @@ or
 $ yarn
 ```
 
-### Get Up and Running
+### Get Up and Running 🏃‍♀️
 
 Run The UI:
 `yarn dev` or `npm run dev`
@@ -55,12 +49,12 @@ Run `yarn run mock:service:slow` to emulate a slower connection when interacting
 
 ### Testing
 
-#### Unit Tests
+#### Unit Tests 🧪
 
 `yarn run test` will run the unit tests.
 `yarn run test:cov` or `yarn run test --coverage` will execute tests and generate a coverage report.
 
-#### Cypress e2e Tests
+#### Cypress e2e Tests 🔄
 
 [Install Cypress](https://docs.cypress.io/guides/getting-started/installing-cypress.html#System-requirements) v6 or later
 
@@ -76,3 +70,4 @@ yarn add cypress --dev
 
 To individually run tests through the Cypress app - `yarn cypress:dev`
 To run all Cypress tests - `yarn cypress:cicd`
+
